@@ -1,0 +1,324 @@
+Script started on Thu 11 Apr 2019 10:00:42 AM PDT
+ortegat@CF165-22:~$ script -a[K[K[K[K[K[K[K[K[Kcd csci241
+ortegat@CF165-22:~/csci241$ https://github.com/CSCI241Spring2019/lab-1-TrevORteg a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cghttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cihttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clhttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cohttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnhttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cehttps://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Cloning into 'lab-1-TrevORtega'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+ortegat@CF165-22:~/csci241$ ls
+lab-1-TrevORtega
+ortegat@CF165-22:~/csci241$ git config --global user.name "Trevor"[K Ortega"[K[K[K[K[K[K[K[K[Kr Ortega"
+ortegat@CF165-22:~/csci241$ git config --global user.email ortegat@wwu.edu
+ortegat@CF165-22:~/csci241$ touch writeup.txt
+ortegat@CF165-22:~/csci241$ git add writeup.txt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+ortegat@CF165-22:~/csci241$ ^C
+ortegat@CF165-22:~/csci241$ git init
+Initialized empty Git repository in /home/ortegat/csci241/.git/
+ortegat@CF165-22:~/csci241$ git add writeup.txt
+ortegat@CF165-22:~/csci241$ git commit -m "Added empty writeup"
+[master (root-commit) ca9f584] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+ortegat@CF165-22:~/csci241$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ortegat@CF165-22:~/csci241$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+ortegat@CF165-22:~/csci241$ git push -origin master
+error: unknown switch `o'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    --delete              delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+
+ortegat@CF165-22:~/csci241$ git remote -v
+ortegat@CF165-22:~/csci241$ git remote add origin ssh://git@github.com/[C[1Pgit@github.com/[1Pgit@github.com/[1Pgit@github.com/[1Pgit@github.com/[1Pgit@github.com/[1Pgit@github.com/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CtrevORtega/lab- 1-Trev[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote -vpush -origin master[K origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd origin git@github.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K https://github.com/CSCI241Spring2019/ lab-1-TrevORtega.git
+fatal: pathspec 'origin' did not match any files
+ortegat@CF165-22:~/csci241$ git remot add origin https://github.com/CSCI241Sprin g2019/lab-1-TrevORtega.git
+git: 'remot' is not a git command. See 'git --help'.
+
+Did you mean this?
+	remote
+ortegat@CF165-22:~/csci241$ git remot add origin https://github.com/CSCI241Springg2019/lab-1-TrevORtega.git[C[A[C[C[C[C[C[Cadd origin https://github.com/CSCI241Spring2019/l[6Pab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[Cremot add origin https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce add origin https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git[A[C[C[C[C[C[C[C[C[C[C[C
+
+ortegat@CF165-22:~/csci241$ put[K[K[Kgit push origin master
+Username for 'https://github.com': trevORtega
+Password for 'https://trevORtega@github.com': 
+To https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ortegat@CF165-22:~/csci241$ git push origin master
+Username for 'https://github.com': trevOrtega
+Password for 'https://trevOrtega@github.com': 
+To https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ortegat@CF165-22:~/csci241$ git pull origin [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote -v
+origin	https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git (fetch)
+origin	https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git (push)
+ortegat@CF165-22:~/csci241$ git remote rm https://github.com/CSCI241Spring2019/l ab-1-TrevORtega.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Korigin
+ortegat@CF165-22:~/csci241$ git remote rm origin-v[K
+ortegat@CF165-22:~/csci241$ git push a[Korigin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ortegat@CF165-22:~/csci241$ ^C
+ortegat@CF165-22:~/csci241$ cd lab-1-TrevORtega
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git push origin master
+Username for 'https://github.com': trevOr Rtega
+Password for 'https://trevORtega@github.com': 
+Everything up-to-date
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git add writeup.txt
+fatal: pathspec 'writeup.txt' did not match any files
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ touch writeup.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git add writeup.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git omm[K[K[Kcommit -m "Added empty writeup" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+[master ddb92f0] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git push oro[Kigin master
+Username for 'https://github.com': trevORtega
+Password for 'https://trevORtega@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 317 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git
+   1523c09..ddb92f0  master -> master
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git commit -m "Added part 1 (names)  to wi[Kriteup"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git add writeup.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ 11[K[Kgit add writeup.txtcommit -m "Added part 1 (names)  to writeup"
+[master e1e77e2] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ p[Kgit statue[Ks
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ gi[K[Kgit statuscommit -m "Added part 1 (names)  to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git add writeup.txt[9Pstatuscommit -m "Added part 1 (names)  to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Added part 1 (names)  to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git statusadd writeup.txt[9Pstatuscommit -m "Added part 1 (names)  to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd writeup.txt[9Pstatusadd writeup.txt[9Pstatuscommit -m "Added part 1 (names)  to writeup"
+[master b94a1f1] Added part 1 (names) to writeup
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git commit -m "Added part 1 (names)  to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git statuscommit -m "Added part 1 (names)  to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push origin master
+Username for 'https://github.com': trevORtega
+Password for 'https://trevORtega@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 554 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git
+   ddb92f0..b94a1f1  master -> master
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ mdie[Kr username.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kkdir username.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ mkdir username.txtgit push origin master[12Pstatuscommit -m "Added part 1 (names)  to writeup"[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"A"d"d"[1P"[1P"d"d"e"d" "u"s"e"r"n"a"m"[1P"[1P"[1P"[1P"[1P"[1P"[1P"n"a"m"e",","[1P"u"s"e"r"n"a"m"e" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,""g"i"t"h"u"b" "t"o" "u"r"s"e"r"[1P"[1P"[1P"[1P"s"e"[1P"[1P"[1P"[1P"[1P"[1P"[1P"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31musername[m
+
+nothing added to commit but untracked files present
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git add username.txt
+fatal: pathspec 'username.txt' did not match any files
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git push[K[K[K[Kadd username.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git com[K[K[K[K[K[K[Kgit add username.txtcommit -m "Added name,username,ggithub"
+[master 28d05fb] Added name,username,github
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git checkout -b "question [K3"
+Switched to a new branch 'question3'
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ 3) Facorite song: [K[K[K[K[K[K[K[K[K[K[K[K[K[K[KFavorite song: Passin' me by[K[K[K[K[K[K[K me by by P [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[KME[Ke By b y[K[Ky P harcyde[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add [K[K[K[K[K[K[K[Kgit checkout -b "question3"ommit -m "Added name,username,ggithub"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Padd username.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Added name,username,ggithub"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pmkdir username.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push origin master[12Pstatuscommit -m "Added part 1 (names)  to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd writeup.txt[9Pstatusadd writeup.txt
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git add writeup.txtcheckout -b "question3"[8Padd writeup.txt[Kgit commit -m "Favorite song[K[K[K[K[K[K[K[K[K[K[K[K[KAdd fave song[K[K[Kong"[K[K[K[K[K[K[K[K[K[K[Ked fave song"
+[question3 5c3590c] Added fave song
+ 1 file changed, 1 insertion(+)
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git[K[K[Kgit checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git merge hotf[K[K[K[Kquestion3
+Updating 28d05fb..5c3590c
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/ortegat/csci241/lab-1-TrevORtega/build.gradle [m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/ortegat/csci241/lab-1-TrevORtega/build.gradle [m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/ortegat/csci241/lab-1-TrevORtega/build.gradle [m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 4s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> Deleting unused version-specific caches in /home/ortegat/csci241/lab-1-TrevOR[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mortegat@CF165-22:~/csci241/lab-1-TrevORtega$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mortegat@CF165-22:~/csci241/lab-1-TrevORtega$ gradle run -args[K[K[K[K-args="your args here"[1Pe"[1P"[1Pe"[1Pe"[1Pe"[1Pe"[1Pe"[1Pe"[1Pe"[1Pe"[1Pe"[1Pe"[1Pe"[C[1P"T"r"e"v"D"o"g"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello TrevDog
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git add src/main/java/lab1/Hello.ja va
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ git commit -m "Helo [K[Klo new[K[Kow prints com mand line arg"
+[master 5ddacc7] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ pit p[K[K[K[K[Kgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': trevOrtega
+Password for 'https://trevOrtega@github.com': 
+Counting objects: 13, done.
+Delta compression using up to 8 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 1.08 KiB | 0 bytes/s, done.
+Total 13 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-TrevORtega.git
+   b94a1f1..5ddacc7  master -> master
+ortegat@CF165-22:~/csci241/lab-1-TrevORtega$ exit
+exit
+
+Script done on Thu 11 Apr 2019 11:11:08 AM PDT
